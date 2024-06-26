@@ -1,0 +1,5 @@
+package com.hyun.app02.controller;
+
+public class PageVo {
+
+}

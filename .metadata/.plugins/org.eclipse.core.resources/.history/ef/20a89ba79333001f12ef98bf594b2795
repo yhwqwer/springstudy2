@@ -1,0 +1,29 @@
+package com.hyun.app02.controller;
+
+import java.util.Optional;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import jakarta.servlet.http.HttpServletRequest;
+
+@Controller
+public class MvcController4 {
+
+    
+  
+  
+  
+  
+  
+  
+    return "index";    
+    
+    
+    
+  }
+  
+  
+  
+  
+  
