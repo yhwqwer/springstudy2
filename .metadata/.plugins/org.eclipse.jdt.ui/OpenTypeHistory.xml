@@ -1,2 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<typeInfoHistroy/>
+<typeInfoHistroy>
+    <typeInfo handle="=app04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hyun.app04.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1719551690077"/>
+    <typeInfo handle="=app04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hyun.app04.service{BookService.java[BookService" modifiers="513" timestamp="1719794447714"/>
+    <typeInfo handle="=app05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hyun.app05.dao{ContactDAO.java[ContactDAO" modifiers="513" timestamp="1719820231768"/>
+</typeInfoHistroy>

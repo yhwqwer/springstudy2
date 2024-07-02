@@ -1,0 +1,36 @@
+package com.hyun.app03.controller;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.hyun.app03.service.BlogService;
+
+@Controller
+public class BlogController {
+
+  private BlogService blogService;
+
+  @Autowired // 스프링컨테이너에서 블로그서비스 타입의 빈을 찾아서 가져올것
+  public BlogController(BlogService blogService) {
+    super();
+    this.blogService = blogService;
+  }
+
+  @RequestMapping("/blog/list")
+  public String list(Model model) {
+   model.addAttribute("blogList", blogService.getBlogList());
+   return "blog/list";
+  }
+  
+  @RequestMapping("/blog/detail")
+  public String detail(@RequestParam("blogNo") int blogNo, Model model) {
+    model.addAttribute("blog", blogService.getBlogByNo(blogNo));
+    return "blog/detail";
+  }
+  
+  
+  
+}

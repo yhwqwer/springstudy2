@@ -2,6 +2,10 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\GREEN_JAVA\springstudy2\app05"/>
+			<item value="C:\GREEN_JAVA\springstudy2\app04"/>
+			<item value="C:\GREEN_JAVA\springstudy2\app03"/>
+			<item value="C:\GREEN_JAVA\springstudy2\app02"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -25,13 +29,19 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
-			<item value="com.min.app01"/>
+			<item value="com.hyun.app06"/>
+			<item value="com.hyun.app05"/>
+			<item value="com.hyun.app04"/>
+			<item value="com.hyun.app03"/>
 		</list>
 		<list key="groupId">
-			<item value="com.min"/>
+			<item value="com.hyun"/>
 		</list>
 		<list key="artifactId">
-			<item value="app01"/>
+			<item value="app06"/>
+			<item value="app05"/>
+			<item value="app04"/>
+			<item value="app03"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>
@@ -79,6 +89,14 @@
 		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
 	</section>
 	<section name="org.eclipse.m2e.core.pom.dependencies">
 	</section>
