@@ -10,6 +10,7 @@
 		<list key="ShowViewDialog.STORE_EXPANDED_CATEGORIES_ID">
 			<item value="Language Servers"/>
 			<item value="Server"/>
+			<item value="Other"/>
 		</list>
 	</section>
 </section>

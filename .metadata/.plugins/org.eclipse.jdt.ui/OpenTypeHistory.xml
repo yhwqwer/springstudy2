@@ -3,4 +3,7 @@
     <typeInfo handle="=app04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hyun.app04.dao{BookDAO.java[BookDAO" modifiers="513" timestamp="1719551690077"/>
     <typeInfo handle="=app04/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hyun.app04.service{BookService.java[BookService" modifiers="513" timestamp="1719794447714"/>
     <typeInfo handle="=app05/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.hyun.app05.dao{ContactDAO.java[ContactDAO" modifiers="513" timestamp="1719820231768"/>
+    <typeInfo handle="=boot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.min.boot.service{IUserService.java[IUserService" modifiers="513" timestamp="1720585043411"/>
+    <typeInfo handle="=boot/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.min.boot.service{IBbsService.java[IBbsService" modifiers="513" timestamp="1720667868004"/>
+    <typeInfo handle="=boot/C:\/Users\/Administrator\/.m2\/repository\/org\/springframework\/spring-webmvc\/6.1.10\/spring-webmvc-6.1.10.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/spring-webmvc-6.1.10.jar=/=/maven.groupId=/org.springframework=/=/maven.artifactId=/spring-webmvc=/=/maven.version=/6.1.10=/=/maven.scope=/compile=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/&lt;org.springframework.web.servlet(HandlerInterceptor.class[HandlerInterceptor" modifiers="1537" timestamp="1720400518366"/>
 </typeInfoHistroy>

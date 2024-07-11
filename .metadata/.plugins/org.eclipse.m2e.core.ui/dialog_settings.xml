@@ -29,6 +29,7 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.hyun.app07"/>
 			<item value="com.hyun.app06"/>
 			<item value="com.hyun.app05"/>
 			<item value="com.hyun.app04"/>
@@ -38,6 +39,7 @@
 			<item value="com.hyun"/>
 		</list>
 		<list key="artifactId">
+			<item value="app07"/>
 			<item value="app06"/>
 			<item value="app05"/>
 			<item value="app04"/>

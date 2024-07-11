@@ -13,4 +13,5 @@ public interface ContactMapper {
   int registerContact(ContactDTO contact);
   int modifyContact(ContactDTO contact);
   int removeContact(int contactNo);
+  int removeContactList(List<String> list);
 }

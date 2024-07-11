@@ -6,14 +6,11 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.junit.jupiter.SpringJUnitConfig;
 
+import com.min.app06.config.AppConfig;
 import com.min.app06.dto.ContactDTO;
 import com.min.app06.mapper.ContactMapper;
 
-@SpringJUnitConfig(locations = {
-    "file:src/main/webapp/WEB-INF/spring/root-context.xml"
-  , "file:src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml"
-})
-
+@SpringJUnitConfig(classes = AppConfig.class)
 
 class JUnitJupiterUnitTest {
 
@@ -22,13 +19,15 @@ class JUnitJupiterUnitTest {
   
   @Test
   void insert_test() {
+    
     ContactDTO contact = ContactDTO.builder()
         .name("min")
         .email("min@example.com")
         .mobile("010-1111-1111")
         .build();
     
-    assertEquals(1,  contactMapper.registerContact(contact));
+    assertEquals(1, contactMapper.registerContact(contact));
+    
   }
 
 }
